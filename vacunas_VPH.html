@@ -1,197 +1,202 @@
 <style>
   <!--
-      body {
-            padding-top: 0 !important;
-            padding-bottom: 0 !important;
-            padding-top: 0 !important;
-            padding-bottom: 0 !important;
-            margin: 0 !important;
-            width: 100% !important;
-            -webkit-text-size-adjust: 100% !important;
-            -ms-text-size-adjust: 100% !important;
-            -webkit-font-smoothing: antialiased !important;
-          }
-
-          .tableContent img {
-            border: 0 !important;
-            display: block !important;
-            outline: none !important;
-          }
-
-
-          @media only screen and (max-width:480px) {
-
-            table[class="MainContainer"],
-            td[class="cell"] {
+    body {
+              padding-top: 0 !important;
+              padding-bottom: 0 !important;
+              padding-top: 0 !important;
+              padding-bottom: 0 !important;
+              margin: 0 !important;
               width: 100% !important;
-              height: auto !important;
+              -webkit-text-size-adjust: 100% !important;
+              -ms-text-size-adjust: 100% !important;
+              -webkit-font-smoothing: antialiased !important;
             }
 
-            td[class="specbundle"] {
-              width: 100% !important;
-              float: left !important;
-              font-size: 13px !important;
-              line-height: 17px !important;
+            .tableContent img {
+              border: 0 !important;
               display: block !important;
-              padding-bottom: 15px !important;
+              outline: none !important;
             }
 
-            td[class="specbundle2"] {
-              width: 80% !important;
-              float: left !important;
-              font-size: 13px !important;
-              line-height: 17px !important;
-              display: block !important;
-              padding-bottom: 10px !important;
-              padding-left: 10% !important;
-              padding-right: 10% !important;
+
+            @media only screen and (max-width:480px) {
+
+              table[class="MainContainer"],
+              td[class="cell"] {
+                width: 100% !important;
+                height: auto !important;
+              }
+
+              td[class="specbundle"] {
+                width: 100% !important;
+                float: left !important;
+                font-size: 13px !important;
+                line-height: 17px !important;
+                display: block !important;
+                padding-bottom: 15px !important;
+              }
+
+              td[class="specbundle2"] {
+                width: 80% !important;
+                float: left !important;
+                font-size: 13px !important;
+                line-height: 17px !important;
+                display: block !important;
+                padding-bottom: 10px !important;
+                padding-left: 10% !important;
+                padding-right: 10% !important;
+              }
+
+              td[class="spechide"] {
+                display: none !important;
+              }
+
+              img[class="banner"] {
+                width: 100% !important;
+                height: auto !important;
+              }
+
+              td[class="left_pad"] {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+              }
+
             }
 
-            td[class="spechide"] {
-              display: none !important;
+            @media only screen and (max-width:540px) {
+
+              table[class="MainContainer"],
+              td[class="cell"] {
+                width: 100% !important;
+                height: auto !important;
+              }
+
+              td[class="specbundle"] {
+                width: 100% !important;
+                float: left !important;
+                font-size: 13px !important;
+                line-height: 17px !important;
+                display: block !important;
+                padding-bottom: 15px !important;
+              }
+
+              td[class="specbundle2"] {
+                width: 80% !important;
+                float: left !important;
+                font-size: 13px !important;
+                line-height: 17px !important;
+                display: block !important;
+                padding-bottom: 10px !important;
+                padding-left: 10% !important;
+                padding-right: 10% !important;
+              }
+
+              td[class="spechide"] {
+                display: none !important;
+              }
+
+              img[class="banner"] {
+                width: 100% !important;
+                height: auto !important;
+              }
+
+              td[class="left_pad"] {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+              }
+
             }
 
-            img[class="banner"] {
-              width: 100% !important;
-              height: auto !important;
+            .contentEditable h2.big,
+            .contentEditable h1.big {
+              font-size: 26px !important;
             }
 
-            td[class="left_pad"] {
-              padding-left: 15px !important;
-              padding-right: 15px !important;
+            .contentEditable h2.bigger,
+            .contentEditable h1.bigger {
+              font-size: 37px !important;
             }
 
-          }
-
-          @media only screen and (max-width:540px) {
-
-            table[class="MainContainer"],
-            td[class="cell"] {
-              width: 100% !important;
-              height: auto !important;
+            td,
+            table {
+              vertical-align: top;
             }
 
-            td[class="specbundle"] {
-              width: 100% !important;
-              float: left !important;
-              font-size: 13px !important;
-              line-height: 17px !important;
-              display: block !important;
-              padding-bottom: 15px !important;
+            td.middle {
+              vertical-align: middle;
             }
 
-            td[class="specbundle2"] {
-              width: 80% !important;
-              float: left !important;
-              font-size: 13px !important;
-              line-height: 17px !important;
-              display: block !important;
-              padding-bottom: 10px !important;
-              padding-left: 10% !important;
-              padding-right: 10% !important;
+            .verdeclaro {
+              color: #90cc86;
             }
 
-            td[class="spechide"] {
-              display: none !important;
+            .bgverdeclaro {
+              background-color: #90cc86;
+              color: #ffffff;
             }
 
-            img[class="banner"] {
-              width: 100% !important;
-              height: auto !important;
+            .verde {
+              color: #54a646;
             }
 
-            td[class="left_pad"] {
-              padding-left: 15px !important;
-              padding-right: 15px !important;
+            .bgverde {
+              background-color: #54a646;
+              color: #ffffff;
             }
 
-          }
+            .gris {
+                color: #5f5f5f;
+            }
 
-          .contentEditable h2.big,
-          .contentEditable h1.big {
-            font-size: 26px !important;
-          }
+            .link2 {
+              color: #ffffff;
+              font-size: 18px;
+              border: 10px solid #54a646;
+              background: #54a646;
+              transition: 0.5s;
+            }
 
-          .contentEditable h2.bigger,
-          .contentEditable h1.bigger {
-            font-size: 37px !important;
-          }
+            .link2:hover {
+              border: 10px solid #efb914;
+              background: #efb914;
+            }
 
-          td,
-          table {
-            vertical-align: top;
-          }
+            .link1 {
+              font-size: 18px;
+              border: 5px solid #d1d3d4;
+              background: #d1d3d4;
+              transition: 0.5s;
+            }
 
-          td.middle {
-            vertical-align: middle;
-          }
+            .link1:hover {
+              border: 5px solid #e7e7e7;
+              background: #e7e7e7;
+            }
 
-          .verdeclaro {
-            color: #90cc86;
-          }
 
-          .bgverdeclaro {
-            background-color: #90cc86;
-            color: #ffffff;
-          }
-
-          .verde {
-            color: #54a646;
-          }
-
-          .bgverde {
-            background-color: #54a646;
-            color: #ffffff;
-          }
-
-          .gris {
+            p {
+              font-family: "Roboto", Arial, sans-serif;
+              font-size: 14px;
+              line-height: 21px;
               color: #5f5f5f;
-          }
-
-          .link2 {
-            color: #ffffff;
-            font-size: 18px;
-            border: 10px solid #54a646;
-            background: #54a646;
-            transition: 0.5s;
-          }
-
-          .link2:hover {
-            border: 10px solid #efb914;
-            background: #efb914;
-          }
-
-          .link1 {
-            font-size: 18px;
-            border: 5px solid #d1d3d4;
-            background: #d1d3d4;
-            transition: 0.5s;
-          }
-
-          .link1:hover {
-            border: 5px solid #e7e7e7;
-            background: #e7e7e7;
-          }
-
-
-          p {
-            font-family: "Roboto", Arial, sans-serif;
-            font-size: 14px;
-            line-height: 21px;
-            color: #5f5f5f;
-          }
+            }
+            li {
+              font-family: "Roboto", Arial, sans-serif;
+              font-size: 14px;
+              line-height: 21px;
+              color: #5f5f5f;
+            }
 
 
 
+            img {
 
-          img {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
 
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-
-          }
-      -->
+            }
+    -->
 </style>
 <table border="0" width="100%" cellspacing="0" cellpadding="0">
   <tbody>
@@ -214,16 +219,16 @@
               <td valign="top" width="40"> </td>
               <td colspan="2">
                 <div style="text-align: center">
-                  <br />
-                  <br />
                   <img
                     class="center1"
                     src="https://www.e-oncologia.org/media/6/media_section/3/0/1930/vacunasVPH-portada.jpg"
                   />
-                  <h1><span class="verde">Vacunas frente a VPH</span></h1>
-                  <h3 class="" style="text-align: center">
-                    <span class="bgverde">curso on-line</span>
-                  </h3>
+                  <h1 class="verde" style="text-align: center">
+                    VACUNAS FRENTE A VPH
+                  </h1>
+                  <h4 class="bgverde" style="text-align: center">
+                    Curso online
+                  </h4>
                 </div>
               </td>
               <td valign="top" width="40"> </td>
@@ -233,16 +238,41 @@
               <td colspan="2">
                 <div>
                   <p>
-                    Curso online de <strong>30 horas de estudio</strong> para el
-                    alumno.
+                    El
+                    <a
+                      href="https://www.e-oncologia.org/cursos/vacunas-frente-vph/"
+                      rel="noopener"
+                      target="_blank"
+                      >curso</a
+                    >, se crea por la necesidad de formar a los profesionales
+                    sanitarios, a los profesionales implicados en programas de
+                    vacunación y cribado ya otros especialistas en salud pública
+                    en la importancia de la vacunación contra el virus de
+                    papiloma humano (VPH), aportando información actualizada
+                    sobre los distintos aspectos relacionados con las vacunas
+                    VPH.
                   </p>
                   <p>
-                    Durante las <strong>8 semanas</strong> de duración del
-                    curso,
-                    <strong
+                    El curso resume la evidencia disponible respecto a la carga
+                    de enfermedad relacionada con la infección por VPH, la
+                    eficacia de las vacunas en diferentes poblaciones (chicas,
+                    chicos, mujeres adultas y poblaciones especiales como
+                    inmunodeprimidos) así como el impacto y efectividad de los
+                    programas de vacunación sistemática contra el VPH.
+                  </p>
+                  <p>
+                    Revisa también la evidencia sobre la seguridad de estas
+                    vacunas y trata distintos aspectos de la reticencia a la
+                    vacunación que permitirán a los profesionales adquirir
+                    conocimientos y habilidades para abordarla en su práctica
+                    habitual.
+                  </p>
+                  <p>
+                    Durante las <b>8 semanas</b> de duración del curso,
+                    <b
                       >los módulos se irán abriendo de forma semanal (el Martes)
                       para garantizar el correcto seguimiento de los
-                      participantes</strong
+                      participantes</b
                     >. A lo largo de cada módulo los alumnos encontrarán
                     preguntas para realizar seguimiento del aprendizaje y al
                     final del curso tendrán una evaluación final que deberán
@@ -251,41 +281,46 @@
                     habrá 2 posibilidades para responder correctamente. De lo
                     contrario, será necesario volver a realizar el curso.
                   </p>
-                  <p>
-                    El programa está diseñado para proporcionar una
-                    actualización sobre la prevención y manejo de los cánceres
-                    asociados a las infecciones por el VPH.
+                  <hr />
+                  <br />
+                  <br />
+                  <div style="text-align: center">
+                    <a
+                      class="link2"
+                      style="color: #fff"
+                      href="https://www.e-oncologia.org/cursos/vacunas-frente-vph/"
+                      rel="noopener"
+                      target="_blank"
+                      >Información detallada</a
+                    >
+                  </div>
+                  <br />
+                  <br />
+                  <hr />
+                  <br />
+                  <p style="text-align: center">
+                    Edición gratuita introduciendo el código:
                   </p>
+                  <h1 class="verde" style="text-align: center">VACVPH2023</h1>
+                  <br />
+                  <hr />
+                  <ul>
+                    <li>Inicio: 02 May 2023</li>
+                    <li>Fin: 30 Jun 2023</li>
+                  </ul>
+                  <hr />
+                  <p>Destinado a:</p>
+                  <ul>
+                    <li>Medicina, todas las especialidades</li>
+                    <li>Enfermería, todas las especialidades</li>
+                    <li>Biólogos en ciencias de la salud</li>
+                    <li>Bioquímicos en ciencias de la salud</li>
+                    <li>Dietistas-nutricionistas</li>
+                    <li>Farmacéuticos</li>
+                    <li>Químicos en ciencias de la salud</li>
+                  </ul>
                 </div>
               </td>
-              <td valign="top" width="40"> </td>
-            </tr>
-            <tr>
-              <td valign="top" width="40"> </td>
-              <td style="text-align: center" colspan="2">
-                <hr />
-                <br />
-                <h3 class="verde" style="text-align: center">CALENDARIO:</h3>
-                <h4 class="gris">02 May 2023 - 30 Jun 2023</h4>
-                <br />
-                <br />
-                <div style="text-align: center">
-                  <a
-                    class="link2"
-                    style="color: #fff"
-                    href="https://www.e-oncologia.org/cursos/vacunas-frente-vph/"
-                    rel="noopener"
-                    target="_blank"
-                    >inscríbete</a
-                  >
-                </div>
-                <br /><br />
-              </td>
-              <td valign="top" width="40"> </td>
-            </tr>
-            <tr>
-              <td valign="top" width="40"> </td>
-              <td colspan="2"> </td>
               <td valign="top" width="40"> </td>
             </tr>
             <tr>
@@ -297,11 +332,19 @@
                   src="https://www.e-oncologia.org/media/6/media_section/1/4/1814/vacuna.jpg"
                 />
                 <br />
+                <br />
                 <img
-                  src="https://e-oncologia.github.io/documentos/images/logoICOEONCO.jpg"
+                  src="https://www.e-oncologia.org/media/6/media_section/4/3/1443/logoEONCO.jpg"
                 />
                 <br />
                 <br />
+                <img
+                  class="center2"
+                  src="https://www.e-oncologia.org/media/6/media_section/8/9/1689/logos-ICO.jpg"
+                  alt=""
+                />
+                <br />
+                <hr />
                 <br />
               </td>
               <td valign="top" width="40"> </td>
