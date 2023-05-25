@@ -197,6 +197,21 @@
         margin-left: auto;
         margin-right: auto;
       }
+      .column {
+        float: left;
+        width: 50%;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .center2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
     </style>
   </head>
 
@@ -223,7 +238,6 @@
                   <td colspan="2">
                     <div style="text-align: center">
                       <br /><br /><img
-                        class="center2"
                         src="https://www.e-oncologia.org/media/6/media_section/6/0/1960/logo-ESO.jpg"
                         alt=""
                       /><br />
@@ -290,14 +304,34 @@
                   <td colspan="2">
                     <hr />
 
-                    <h3 class="verde" style="">SPEAKERS:</h3>
-                    <p style=""><strong>Xavier Bosch, MD–PhD</strong></p>
-                    <p style="">
-                      Catalan Institute of Oncology (ICO) <br />Barcelona, Spain
-                    </p>
-
-                    <p style=""><strong>Alessandro Ghelardi, MD</strong></p>
-                    <p>Az USL Toscana nord ovest<br />Massa, Italy</p>
+                    <h3 class="verde" style="text-align: center">SPEAKERS:</h3>
+                    <div class="row">
+                      <div class="column">
+                        <img
+                          class="center2"
+                          src="https://www.e-oncologia.org/media/6/media_section/6/6/1966/f-xavier-bosch.jpg"
+                        />
+                        <p style="text-align: center">
+                          <strong>Xavier Bosch, MD–PhD</strong>
+                        </p>
+                        <p style="text-align: center">
+                          Catalan Institute of Oncology (ICO) <br />Barcelona,
+                          Spain
+                        </p>
+                      </div>
+                      <div class="column">
+                        <img
+                          class="center2"
+                          src="https://www.e-oncologia.org/media/6/media_section/6/8/1968/alessandro.jpg"
+                        />
+                        <p style="text-align: center">
+                          <strong>Alessandro Ghelardi, MD</strong>
+                        </p>
+                        <p style="text-align: center">
+                          Az USL Toscana nord ovest<br />Massa, Italy
+                        </p>
+                      </div>
+                    </div>
 
                     <br />
                   </td>
