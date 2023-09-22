@@ -1,289 +1,276 @@
 <style><!--
-    body {
-                  padding-top: 0 !important;
-                  padding-bottom: 0 !important;
-                  padding-top: 0 !important;
-                  padding-bottom: 0 !important;
-                  margin: 0 !important;
-                  width: 100% !important;
-                  -webkit-text-size-adjust: 100% !important;
-                  -ms-text-size-adjust: 100% !important;
-                  -webkit-font-smoothing: antialiased !important;
-                }
-    
-                .tableContent img {
-                  border: 0 !important;
-                  display: block !important;
-                  outline: none !important;
-                }
-    
-    
-                @media only screen and (max-width:480px) {
-    
-                  table[class="MainContainer"],
-                  td[class="cell"] {
+  body {
+                    padding-top: 0 !important;
+                    padding-bottom: 0 !important;
+                    padding-top: 0 !important;
+                    padding-bottom: 0 !important;
+                    margin: 0 !important;
                     width: 100% !important;
-                    height: auto !important;
+                    -webkit-text-size-adjust: 100% !important;
+                    -ms-text-size-adjust: 100% !important;
+                    -webkit-font-smoothing: antialiased !important;
                   }
-    
-                  td[class="specbundle"] {
-                    width: 100% !important;
-                    float: left !important;
-                    font-size: 13px !important;
-                    line-height: 17px !important;
+      
+                  .tableContent img {
+                    border: 0 !important;
                     display: block !important;
-                    padding-bottom: 15px !important;
+                    outline: none !important;
                   }
-    
-                  td[class="specbundle2"] {
-                    width: 80% !important;
-                    float: left !important;
-                    font-size: 13px !important;
-                    line-height: 17px !important;
-                    display: block !important;
-                    padding-bottom: 10px !important;
-                    padding-left: 10% !important;
-                    padding-right: 10% !important;
+      
+      
+                  @media only screen and (max-width:480px) {
+      
+                    table[class="MainContainer"],
+                    td[class="cell"] {
+                      width: 100% !important;
+                      height: auto !important;
+                    }
+      
+                    td[class="specbundle"] {
+                      width: 100% !important;
+                      float: left !important;
+                      font-size: 13px !important;
+                      line-height: 17px !important;
+                      display: block !important;
+                      padding-bottom: 15px !important;
+                    }
+      
+                    td[class="specbundle2"] {
+                      width: 80% !important;
+                      float: left !important;
+                      font-size: 13px !important;
+                      line-height: 17px !important;
+                      display: block !important;
+                      padding-bottom: 10px !important;
+                      padding-left: 10% !important;
+                      padding-right: 10% !important;
+                    }
+      
+                    td[class="spechide"] {
+                      display: none !important;
+                    }
+      
+                    img[class="banner"] {
+                      width: 100% !important;
+                      height: auto !important;
+                    }
+      
+                    td[class="left_pad"] {
+                      padding-left: 15px !important;
+                      padding-right: 15px !important;
+                    }
+      
                   }
-    
-                  td[class="spechide"] {
-                    display: none !important;
+      
+                  @media only screen and (max-width:540px) {
+      
+                    table[class="MainContainer"],
+                    td[class="cell"] {
+                      width: 100% !important;
+                      height: auto !important;
+                    }
+      
+                    td[class="specbundle"] {
+                      width: 100% !important;
+                      float: left !important;
+                      font-size: 13px !important;
+                      line-height: 17px !important;
+                      display: block !important;
+                      padding-bottom: 15px !important;
+                    }
+      
+                    td[class="specbundle2"] {
+                      width: 80% !important;
+                      float: left !important;
+                      font-size: 13px !important;
+                      line-height: 17px !important;
+                      display: block !important;
+                      padding-bottom: 10px !important;
+                      padding-left: 10% !important;
+                      padding-right: 10% !important;
+                    }
+      
+                    td[class="spechide"] {
+                      display: none !important;
+                    }
+      
+                    img[class="banner"] {
+                      width: 100% !important;
+                      height: auto !important;
+                    }
+      
+                    td[class="left_pad"] {
+                      padding-left: 15px !important;
+                      padding-right: 15px !important;
+                    }
+      
                   }
-    
-                  img[class="banner"] {
-                    width: 100% !important;
-                    height: auto !important;
+      
+                  .contentEditable h2.big,
+                  .contentEditable h1.big {
+                    font-size: 26px !important;
                   }
-    
-                  td[class="left_pad"] {
-                    padding-left: 15px !important;
-                    padding-right: 15px !important;
+      
+                  .contentEditable h2.bigger,
+                  .contentEditable h1.bigger {
+                    font-size: 37px !important;
                   }
-    
-                }
-    
-                @media only screen and (max-width:540px) {
-    
-                  table[class="MainContainer"],
-                  td[class="cell"] {
-                    width: 100% !important;
-                    height: auto !important;
+      
+                  td,
+                  table {
+                    vertical-align: top;
                   }
-    
-                  td[class="specbundle"] {
-                    width: 100% !important;
-                    float: left !important;
-                    font-size: 13px !important;
-                    line-height: 17px !important;
-                    display: block !important;
-                    padding-bottom: 15px !important;
+      
+                  td.middle {
+                    vertical-align: middle;
                   }
-    
-                  td[class="specbundle2"] {
-                    width: 80% !important;
-                    float: left !important;
-                    font-size: 13px !important;
-                    line-height: 17px !important;
-                    display: block !important;
-                    padding-bottom: 10px !important;
-                    padding-left: 10% !important;
-                    padding-right: 10% !important;
+      
+                  .verdeclaro {
+                    color: #90cc86;
                   }
-    
-                  td[class="spechide"] {
-                    display: none !important;
+      
+                  .bgverdeclaro {
+                    background-color: #90cc86;
+                    color: #ffffff;
                   }
-    
-                  img[class="banner"] {
-                    width: 100% !important;
-                    height: auto !important;
+      
+                  .verde {
+                    color: #54a646;
                   }
-    
-                  td[class="left_pad"] {
-                    padding-left: 15px !important;
-                    padding-right: 15px !important;
+      
+                  .bgverde {
+                    background-color: #54a646;
+                    color: #ffffff;
                   }
-    
-                }
-    
-                .contentEditable h2.big,
-                .contentEditable h1.big {
-                  font-size: 26px !important;
-                }
-    
-                .contentEditable h2.bigger,
-                .contentEditable h1.bigger {
-                  font-size: 37px !important;
-                }
-    
-                td,
-                table {
-                  vertical-align: top;
-                }
-    
-                td.middle {
-                  vertical-align: middle;
-                }
-    
-                .verdeclaro {
-                  color: #90cc86;
-                }
-    
-                .bgverdeclaro {
-                  background-color: #90cc86;
-                  color: #ffffff;
-                }
-    
-                .verde {
-                  color: #54a646;
-                }
-    
-                .bgverde {
-                  background-color: #54a646;
-                  color: #ffffff;
-                }
-    
-                .gris {
+      
+                  .gris {
+                      color: #5f5f5f;
+                  }
+      
+                  .link2 {
+                    color: #ffffff;
+                    font-size: 18px;
+                    border: 10px solid #54a646;
+                    background: #54a646;
+                    transition: 0.5s;
+                  }
+      
+                  .link2:hover {
+                    border: 10px solid #efb914;
+                    background: #efb914;
+                  }
+      
+                  .link1 {
+                    font-size: 18px;
+                    border: 5px solid #d1d3d4;
+                    background: #d1d3d4;
+                    transition: 0.5s;
+                  }
+      
+                  .link1:hover {
+                    border: 5px solid #e7e7e7;
+                    background: #e7e7e7;
+                  }
+      
+      
+                  p {
+                    font-family: "Roboto", Arial, sans-serif;
+                    font-size: 14px;
+                    line-height: 21px;
                     color: #5f5f5f;
-                }
-    
-                .link2 {
-                  color: #ffffff;
-                  font-size: 18px;
-                  border: 10px solid #54a646;
-                  background: #54a646;
-                  transition: 0.5s;
-                }
-    
-                .link2:hover {
-                  border: 10px solid #efb914;
-                  background: #efb914;
-                }
-    
-                .link1 {
-                  font-size: 18px;
-                  border: 5px solid #d1d3d4;
-                  background: #d1d3d4;
-                  transition: 0.5s;
-                }
-    
-                .link1:hover {
-                  border: 5px solid #e7e7e7;
-                  background: #e7e7e7;
-                }
-    
-    
-                p {
-                  font-family: "Roboto", Arial, sans-serif;
-                  font-size: 14px;
-                  line-height: 21px;
-                  color: #5f5f5f;
-                }
-                li {
-                  font-family: "Roboto", Arial, sans-serif;
-                  font-size: 14px;
-                  line-height: 21px;
-                  color: #5f5f5f;
-                }
-    
-    
-    
-                img {
-    
-                  display: block;
-                  margin-left: auto;
-                  margin-right: auto;
-    
-                }
-    --></style>
-    <table border="0" width="100%" cellspacing="0" cellpadding="0">
-    <tbody>
-    <tr>
-    <td>
-    <table class="MainContainer" style="font-family: helvetica, sans-serif;" border="0" width="600" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff"><!-- =============== END HEADER =============== --> <!-- =============== START BODY =============== -->
-    <tbody>
-    <tr>
-    <td valign="top" width="40"> </td>
-    <td colspan="2">
-    <div style="text-align: center;"><img class="center1" src="https://www.e-oncologia.org/media/6/media_section/0/1/1501/cateteresB2.jpg" />
-    <h1 class="verde" style="text-align: center;">Catéteres vasculares en la terapia oncológica</h1>
-    </div>
-    </td>
-    <td valign="top" width="40"> </td>
-    </tr>
-    <tr>
-    <td valign="top" width="40"> </td>
-    <td colspan="2">
-    <p>Los procesos de atención oncológica, cada vez más complejos, necesitan de una mayor especialización de los profesionales sanitarios.</p>
-    <p>La terapia intravenosa, está presente prácticamente en todos los procesos asistenciales relacionados con cáncer e incluye todo lo relacionado con el manejo de la vía venosa, desde la inserción de los diferentes catéteres, la administración de medicación intravenosa y los cuidados del catéter, tanto intraluminales como extra luminales.</p>
-    <p>Los beneficios son evidentes desde el punto de vista clínico, económico y de calidad de vida: reduce las estancias hospitalarias y permite al paciente pasar más horas en casa.</p>
-    <p>Sin embargo, a pesar de que los materiales utilizados evolucionan y ya se dispone de técnicas de colocación más precisas, existen complicaciones que los profesionales de enfermería han de detectar y manejar para reducir el riesgo asociado:</p>
-    <ul>
-    <li>Complicaciones tempranas: sangrado, arritmias, fenómenos tromboembólicos, neumotórax lesiones vasculares.</li>
-    <li>Complicaciones tardías: trombosis, infección o disfunción del catéter.</li>
-    </ul>
-    <p class="verde"><b>Para ello, con este curso se pretende formar al personal de enfermería de forma especializada en el ámbito del acceso venoso para cubrir las necesidades de los pacientes oncológicos.</b></p>
-    <br /> <br />
-    <div style="text-align: center;"><a class="link2" style="color: #fff;" href="https://www.e-oncologia.org/cursos/cateteres-vasculares-en-la-terapia-oncologica/" rel="noopener" target="_blank">Información detallada</a></div>
-    <br /> <br /><br />
-    <h2 class="verde" style="text-align: center;">Precio: 60€</h2>
-    <br />
-    <ul>
-    <li>Inicio: 27/02/2023</li>
-    <li>Fin: 31/05/2023</li>
-    </ul>
-    <br />
-    <p style="text-align: center;">Dirigido a enfermeras especialistas en curas médico-quirúrgicas.</p>
- <br /><hr /><br />
-
-    </td>
-    <td valign="top" width="40"> </td>
-    </tr>
-
-
-    <tr>
-    <td valign="top" width="40"> </td>
-    <td colspan="2">
-    <div style="text-align: center;"><img class="center1" src="https://www.e-oncologia.org/media/6/media_section/4/2/1842/inmunoter.jpg" />
-    <h1 class="verde" style="text-align: center;">Cuidados de Inmunoterapia en Cáncer</h1>
-    </div>
-    </td>
-    <td valign="top" width="40"> </td>
-    </tr>
-    <tr>
-    <td valign="top" width="40"> </td>
-    <td colspan="2">
-    <p>En los últimos años se han producido innovaciones en el tratamiento de algunos tumores como la modulación del sistema inmune. Esta nueva estrategia terapéutica supone un cambio de paradigma muy relevante clínicamente porque ha causado una mejora en la supervivencia de algunos tumores. Aunque este tipo de tratamientos se asocian a una menor toxicidad que la quimioterapia convencional, la inmunoterapia puede desencadenar efectos adversos que es muy importante conocer y saber manejar de forma adecuada.</p>
-    <p>El profesional de enfermería forma una parte imprescindible de los equipos multidisciplinarios que atienden al paciente con cáncer que recibe inmunoterapia. Su actualización es fundamental para una atención adecuada, tanto en la detección precoz como en el seguimiento.</p>
-    <p>El Curso sobre Cuidados de Inmunoterapia en Cáncer ha sido diseñado para que los profesionales de la enfermería conozcan los aspectos básicos de la inmunoterapia, el papel qué juega el sistema inmune en el cáncer y cómo detectar y manejar la toxicidad relacionada.</p>
-    <p class="verde"><b>Se trata del primer programa online de Inmuno-Oncología dirigido específicamente a profesionales de la enfermería (DUE) y los materiales formativos han sido creados por el equipo de enfermería especializado del Institut Català d'Oncologia.</b></p>
-    
-    <br /> <br />
-    <div style="text-align: center;"><a class="link2" style="color: #fff;" href="https://www.e-oncologia.org/cursos/cuidados-de-inmunoterapia-en-cancer/" rel="noopener" target="_blank">Información detallada</a></div>
-    <br /> <br /><br />
-    <h2 class="verde" style="text-align: center;">Precio: 150€</h2>
-    <br />
-    <ul>
-    <li>Inicio: 27/02/2023</li>
-    <li>Fin: 31/05/2023</li>
-    </ul>
-   
- <br /><hr /><br />
-
-    </td>
-    <td valign="top" width="40"> </td>
-    </tr>
-
-
-    <tr>
-    <td valign="top" width="40"> </td>
-    <td colspan="2"><img src="https://www.e-oncologia.org/media/6/media_section/4/3/1443/logoEONCO.jpg" /> <br /> <br /> <img class="center2" src="https://www.e-oncologia.org/media/6/media_section/8/9/1689/logos-ICO.jpg" alt="" /> <br /><hr /><br />
-    </td>
-    <td valign="top" width="40"> </td>
-    </tr>
-    </tbody>
-    </table>
-    </td>
-    </tr>
-    </tbody>
-    </table>
+                  }
+                  li {
+                    font-family: "Roboto", Arial, sans-serif;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #5f5f5f;
+                  }
+      
+      
+      
+                  img {
+      
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+      
+                  }
+  --></style>
+  <table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tbody>
+  <tr>
+  <td>
+  <table class="MainContainer" style="font-family: helvetica, sans-serif;" border="0" width="600" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff"><!-- =============== END HEADER =============== --> <!-- =============== START BODY =============== -->
+  <tbody>
+  <tr>
+  <td valign="top" width="40"> </td>
+  <td colspan="2">
+  <div style="text-align: center;"><img class="center1" src="https://www.e-oncologia.org/media/6/media_section/0/1/1501/cateteresB2.jpg" />
+  <h1 class="verde" style="text-align: center;">Catéteres vasculares en la terapia oncológica</h1>
+  </div>
+  </td>
+  <td valign="top" width="40"> </td>
+  </tr>
+  <tr>
+  <td valign="top" width="40"> </td>
+  <td colspan="2">
+  <p>Los procesos de atención oncológica, cada vez más complejos, necesitan de una mayor especialización de los profesionales sanitarios.</p>
+  <p>La terapia intravenosa, está presente prácticamente en todos los procesos asistenciales relacionados con cáncer e incluye todo lo relacionado con el manejo de la vía venosa, desde la inserción de los diferentes catéteres, la administración de medicación intravenosa y los cuidados del catéter, tanto intraluminales como extra luminales.</p>
+  <p>Los beneficios son evidentes desde el punto de vista clínico, económico y de calidad de vida: reduce las estancias hospitalarias y permite al paciente pasar más horas en casa.</p>
+  <p>Sin embargo, a pesar de que los materiales utilizados evolucionan y ya se dispone de técnicas de colocación más precisas, existen complicaciones que los profesionales de enfermería han de detectar y manejar para reducir el riesgo asociado:</p>
+  <ul>
+  <li>Complicaciones tempranas: sangrado, arritmias, fenómenos tromboembólicos, neumotórax lesiones vasculares.</li>
+  <li>Complicaciones tardías: trombosis, infección o disfunción del catéter.</li>
+  </ul>
+  <p class="verde"><strong>Para ello, con este curso se pretende formar al <span style="text-decoration: underline;">personal de enfermería de forma especializada</span> en el ámbito del acceso venoso para cubrir las necesidades de los pacientes oncológicos.</strong></p>
+  <br /> <br />
+  <div style="text-align: center;"><a class="link2" style="color: #fff;" href="https://www.e-oncologia.org/cursos/cateteres-vasculares-en-la-terapia-oncologica/" rel="noopener" target="_blank">Información detallada</a></div>
+  <br /> <br /><br />
+  <h2 class="verde" style="text-align: center;">Precio: 60€<br /><br />Dirigido a: Enfermería<br /><br /></h2>
+  <ul>
+  <li>Inicio: 26/09/2023</li>
+  <li>Fin: 18/12/2023</li>
+  </ul>
+  <p style="text-align: center;"><br /></p>
+  <hr /><br /></td>
+  <td valign="top" width="40"> </td>
+  </tr>
+  <tr>
+  <td valign="top" width="40"> </td>
+  <td colspan="2">
+  <div style="text-align: center;"><img class="center1" src="https://www.e-oncologia.org/media/6/media_section/4/2/1842/inmunoter.jpg" />
+  <h1 class="verde" style="text-align: center;">Cuidados de Inmunoterapia en Cáncer</h1>
+  </div>
+  </td>
+  <td valign="top" width="40"> </td>
+  </tr>
+  <tr>
+  <td valign="top" width="40"> </td>
+  <td colspan="2">
+  <p>En los últimos años se han producido innovaciones en el tratamiento de algunos tumores como la modulación del sistema inmune. Esta nueva estrategia terapéutica supone un cambio de paradigma muy relevante clínicamente porque ha causado una mejora en la supervivencia de algunos tumores. Aunque este tipo de tratamientos se asocian a una menor toxicidad que la quimioterapia convencional, la inmunoterapia puede desencadenar efectos adversos que es muy importante conocer y saber manejar de forma adecuada.</p>
+  <p>El profesional de enfermería forma una parte imprescindible de los equipos multidisciplinarios que atienden al paciente con cáncer que recibe inmunoterapia. Su actualización es fundamental para una atención adecuada, tanto en la detección precoz como en el seguimiento.</p>
+  <p>El Curso sobre Cuidados de Inmunoterapia en Cáncer ha sido diseñado para que los profesionales de la enfermería conozcan los aspectos básicos de la inmunoterapia, el papel qué juega el sistema inmune en el cáncer y cómo detectar y manejar la toxicidad relacionada.</p>
+  <p class="verde"><strong>Se trata del primer programa online de Inmuno-Oncología <span style="text-decoration: underline;">dirigido específicamente a profesionales de la enfermería (DUE)</span> y los materiales formativos han sido creados por el equipo de enfermería especializado del Institut Català d'Oncologia.</strong></p>
+  <br /> <br />
+  <div style="text-align: center;"><a class="link2" style="color: #fff;" href="https://www.e-oncologia.org/cursos/cuidados-de-inmunoterapia-en-cancer/" rel="noopener" target="_blank">Información detallada</a></div>
+  <br /> <br /><br />
+  <h2 class="verde" style="text-align: center;">Precio: 150€<br /><br />Dirigigido a: Enfermería</h2>
+  <br />
+  <ul>
+  <li>Inicio: 26/09/2023</li>
+  <li>Fin: 18/12/2023</li>
+  </ul>
+  <br /><hr /><br /></td>
+  <td valign="top" width="40"> </td>
+  </tr>
+  <tr>
+  <td valign="top" width="40"> </td>
+  <td colspan="2"><img src="https://www.e-oncologia.org/media/6/media_section/4/3/1443/logoEONCO.jpg" /> <br /> <br /> <img class="center2" src="https://www.e-oncologia.org/media/6/media_section/8/9/1689/logos-ICO.jpg" alt="" /> <br /><hr /><br /></td>
+  <td valign="top" width="40"> </td>
+  </tr>
+  </tbody>
+  </table>
+  </td>
+  </tr>
+  </tbody>
+  </table>
