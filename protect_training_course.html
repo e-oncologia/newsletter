@@ -1,221 +1,242 @@
 <style>
-    <!--
-      body {
-                padding-top: 0 !important;
-                padding-bottom: 0 !important;
-                padding-top: 0 !important;
-                padding-bottom: 0 !important;
-                margin: 0 !important;
-                width: 100% !important;
-                -webkit-text-size-adjust: 100% !important;
-                -ms-text-size-adjust: 100% !important;
-                -webkit-font-smoothing: antialiased !important;
-              }
-
-              .tableContent img {
-                border: 0 !important;
-                display: block !important;
-                outline: none !important;
-              }
-
-
-              @media only screen and (max-width:480px) {
-
-                table[class="MainContainer"],
-                td[class="cell"] {
+      <!--
+        body {
+                  padding-top: 0 !important;
+                  padding-bottom: 0 !important;
+                  padding-top: 0 !important;
+                  padding-bottom: 0 !important;
+                  margin: 0 !important;
                   width: 100% !important;
-                  height: auto !important;
+                  -webkit-text-size-adjust: 100% !important;
+                  -ms-text-size-adjust: 100% !important;
+                  -webkit-font-smoothing: antialiased !important;
                 }
 
-                td[class="specbundle"] {
-                  width: 100% !important;
-                  float: left !important;
-                  font-size: 13px !important;
-                  line-height: 17px !important;
+                .tableContent img {
+                  border: 0 !important;
                   display: block !important;
-                  padding-bottom: 15px !important;
+                  outline: none !important;
                 }
 
-                td[class="specbundle2"] {
-                  width: 80% !important;
-                  float: left !important;
-                  font-size: 13px !important;
-                  line-height: 17px !important;
-                  display: block !important;
-                  padding-bottom: 10px !important;
-                  padding-left: 10% !important;
-                  padding-right: 10% !important;
+
+                @media only screen and (max-width:480px) {
+
+                  table[class="MainContainer"],
+                  td[class="cell"] {
+                    width: 100% !important;
+                    height: auto !important;
+                  }
+
+                  td[class="specbundle"] {
+                    width: 100% !important;
+                    float: left !important;
+                    font-size: 13px !important;
+                    line-height: 17px !important;
+                    display: block !important;
+                    padding-bottom: 15px !important;
+                  }
+
+                  td[class="specbundle2"] {
+                    width: 80% !important;
+                    float: left !important;
+                    font-size: 13px !important;
+                    line-height: 17px !important;
+                    display: block !important;
+                    padding-bottom: 10px !important;
+                    padding-left: 10% !important;
+                    padding-right: 10% !important;
+                  }
+
+                  td[class="spechide"] {
+                    display: none !important;
+                  }
+
+                  img[class="banner"] {
+                    width: 100% !important;
+                    height: auto !important;
+                  }
+
+                  td[class="left_pad"] {
+                    padding-left: 15px !important;
+                    padding-right: 15px !important;
+                  }
+
                 }
 
-                td[class="spechide"] {
-                  display: none !important;
+                @media only screen and (max-width:540px) {
+
+                  table[class="MainContainer"],
+                  td[class="cell"] {
+                    width: 100% !important;
+                    height: auto !important;
+                  }
+
+                  td[class="specbundle"] {
+                    width: 100% !important;
+                    float: left !important;
+                    font-size: 13px !important;
+                    line-height: 17px !important;
+                    display: block !important;
+                    padding-bottom: 15px !important;
+                  }
+
+                  td[class="specbundle2"] {
+                    width: 80% !important;
+                    float: left !important;
+                    font-size: 13px !important;
+                    line-height: 17px !important;
+                    display: block !important;
+                    padding-bottom: 10px !important;
+                    padding-left: 10% !important;
+                    padding-right: 10% !important;
+                  }
+
+                  td[class="spechide"] {
+                    display: none !important;
+                  }
+
+                  img[class="banner"] {
+                    width: 100% !important;
+                    height: auto !important;
+                  }
+
+                  td[class="left_pad"] {
+                    padding-left: 15px !important;
+                    padding-right: 15px !important;
+                  }
+
                 }
 
-                img[class="banner"] {
-                  width: 100% !important;
-                  height: auto !important;
+                .contentEditable h2.big,
+                .contentEditable h1.big {
+                  font-size: 26px !important;
                 }
 
-                td[class="left_pad"] {
-                  padding-left: 15px !important;
-                  padding-right: 15px !important;
+                .contentEditable h2.bigger,
+                .contentEditable h1.bigger {
+                  font-size: 37px !important;
                 }
 
-              }
-
-              @media only screen and (max-width:540px) {
-
-                table[class="MainContainer"],
-                td[class="cell"] {
-                  width: 100% !important;
-                  height: auto !important;
+                td,
+                table {
+                  vertical-align: top;
                 }
 
-                td[class="specbundle"] {
-                  width: 100% !important;
-                  float: left !important;
-                  font-size: 13px !important;
-                  line-height: 17px !important;
-                  display: block !important;
-                  padding-bottom: 15px !important;
+                td.middle {
+                  vertical-align: middle;
                 }
 
-                td[class="specbundle2"] {
-                  width: 80% !important;
-                  float: left !important;
-                  font-size: 13px !important;
-                  line-height: 17px !important;
-                  display: block !important;
-                  padding-bottom: 10px !important;
-                  padding-left: 10% !important;
-                  padding-right: 10% !important;
+                .verdeclaro {
+                  color: #90cc86;
                 }
 
-                td[class="spechide"] {
-                  display: none !important;
+                .bgverdeclaro {
+                  background-color: #90cc86;
+                  color: #ffffff;
                 }
 
-                img[class="banner"] {
-                  width: 100% !important;
-                  height: auto !important;
-                }
-
-                td[class="left_pad"] {
-                  padding-left: 15px !important;
-                  padding-right: 15px !important;
-                }
-
-              }
-
-              .contentEditable h2.big,
-              .contentEditable h1.big {
-                font-size: 26px !important;
-              }
-
-              .contentEditable h2.bigger,
-              .contentEditable h1.bigger {
-                font-size: 37px !important;
-              }
-
-              td,
-              table {
-                vertical-align: top;
-              }
-
-              td.middle {
-                vertical-align: middle;
-              }
-
-              .verdeclaro {
-                color: #90cc86;
-              }
-
-              .bgverdeclaro {
-                background-color: #90cc86;
-                color: #ffffff;
-              }
-
-              .center1 {
-    border: 0px solid #ddd;
-    border-radius: 0px;
-    padding: 0px;
-    width: 560px;
+                * {
+    box-sizing: border-box;
   }
-  .center2 {
 
-    padding: 5px;
-    width: 250px;
-  }
-  .estilo1 {
-    border: 0px solid #ddd;
-    border-radius: 0px;
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
     padding: 10px;
-    width: 560px;
-    background-color: #ececec;
+    height: 300px; /* Should be removed. Only for demonstration */
   }
 
-              .verde {
-                color: #255d9a;
-              }
-
-              .bgverde {
-                background-color: #45aea0;
-                color: #ffffff;
-              }
-
-              .gris {
-                  color: #5f5f5f;
-              }
-
-              .link2 {
-                color: #ffffff;
-                font-size: 18px;
-                border: 10px solid #4196e0;
-                background: #4196e0;
-                transition: 0.5s;
-              }
-
-              .link2:hover {
-                border: 10px solid #f18418;
-                background: #f18418;
-              }
-
-              .link1 {
-                font-size: 18px;
-                border: 10px solid #406ec5;
-                background: #406ec5;
-                transition: 0.5s;
-              }
-
-              .link1:hover {
-                border: 10px solid #e7e7e7;
-                background: #e7e7e7;
-              }
-
-
-              p {
-                font-family: "Roboto", Arial, sans-serif;
-                font-size: 14px;
-                line-height: 21px;
-                color: #2b2b2b;
-              }
-              li {
-                font-family: "Roboto", Arial, sans-serif;
-                font-size: 14px;
-                line-height: 21px;
-                color: #2b2b2b;
-              }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
 
-              img {
+                .center1 {
+      border: 0px solid #ddd;
+      border-radius: 0px;
+      padding: 0px;
+      width: 560px;
+    }
+    .center2 {
 
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
+      padding: 5px;
+      width: 250px;
+    }
+    .estilo1 {
+      border: 0px solid #ddd;
+      border-radius: 0px;
+      padding: 10px;
+      width: 560px;
+      background-color: #ececec;
+    }
 
-              }
-      -->
+                .verde {
+                  color: #255d9a;
+                }
+
+                .bgverde {
+                  background-color: #45aea0;
+                  color: #ffffff;
+                }
+
+                .gris {
+                    color: #5f5f5f;
+                }
+
+                .link2 {
+                  color: #ffffff;
+                  font-size: 18px;
+                  border: 10px solid #4196e0;
+                  background: #4196e0;
+                  transition: 0.5s;
+                }
+
+                .link2:hover {
+                  border: 10px solid #f18418;
+                  background: #f18418;
+                }
+
+                .link1 {
+                  font-size: 18px;
+                  border: 10px solid #406ec5;
+                  background: #406ec5;
+                  transition: 0.5s;
+                }
+
+                .link1:hover {
+                  border: 10px solid #e7e7e7;
+                  background: #e7e7e7;
+                }
+
+
+                p {
+                  font-family: "Roboto", Arial, sans-serif;
+                  font-size: 14px;
+                  line-height: 21px;
+                  color: #2b2b2b;
+                }
+                li {
+                  font-family: "Roboto", Arial, sans-serif;
+                  font-size: 14px;
+                  line-height: 21px;
+                  color: #2b2b2b;
+                }
+
+
+
+                img {
+
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+
+                }
+        -->
 </style>
 <table border="0" width="100%" cellspacing="0" cellpadding="0">
   <tbody>
@@ -259,9 +280,7 @@
                 <h3 style="text-align: center">
                   20-hour <span class="verde">FREE</span> training course
                 </h3>
-                <h3 style="text-align: center">
-                  September 2nd - November 3rd, 2024
-                </h3>
+
                 <h3 class="verde" style="text-align: center">
                   Registration now open!!!
                 </h3>
@@ -272,7 +291,11 @@
                   <br />
                   Tutor available - <i>Solve all your doubts</i>
                   <br />
-                  CME credits - <i>(Accreditation under review)</i>
+                  CME credits -
+                  <i
+                    >European Accreditation Council for Continuing Medical
+                    Education (EACCME®)</i
+                  >
                 </p>
               </td>
               <td valign="top" width="40"> </td>
@@ -285,41 +308,86 @@
                   <br />
                   <h4 class="verde">Online training</h4>
                   <p>
-                    The <a href="https://www.europeancancer.org/eu-projects/impact/protect-europe">PROTECT-Europe</a> project aims to increase HPV vaccine uptake in girls and promoting gender-neutral vaccination across Europe. 
+                    The
+                    <a
+                      href="https://www.europeancancer.org/eu-projects/impact/protect-europe"
+                      >PROTECT-Europe</a
+                    >
+                    project aims to promote HPV gender-neutral vaccination
+                    across Europe.
                   </p>
 
                   <hr />
                   <h4 class="verde">Objectives:</h4>
                   <p>
-                    To improve the HPV vaccine coverage in target populations. This training has been developed to enhance the HPV knowledge and communication skills of healthcare professionals.
-                  </p>
-                  <h4 class="verde">Aimed at:</h4>
-                  <p>
-                    This course aims to enhance the HPV knowledge and communication skills of healthcare professionals.
+                    This training aims to enhance the HPV knowledge and
+                    communication skills of healthcare professionals.
                   </p>
                   <h4 class="verde">Schedule:</h4>
-                  <p>Available from September 2nd to November 3rd.</p>
+                  <p>
+                    Available from September 2nd to November 3rd.
+                    <b>You can join now!</b>
+                  </p>
+                  <h4 class="verde">Schedule:</h4>
+                  <p>
+                    Available since 02.09.24 to November 3rd. You can join
+                    anytime before the end date! Sign up now.
+                  </p>
                   <h4 class="verde">Methodology:</h4>
                   <p>
-                    This course aims to enhance the HPV knowledge and communication skills of healthcare professionals through online training in English-language, with the following modules being released weekly: 
+                    This course aims to enhance the HPV knowledge and
+                    communication skills of healthcare professionals through
+                    online training in English-language, with the following
+                    modules being released weekly:
                   </p>
-                  <p><b>HPV vaccines: From Prevention to Confidence building (20hs)</b></p>
+                  <p>
+                    <b
+                      >HPV vaccines: From Prevention to Confidence building
+                      (20hs)</b
+                    >
+                  </p>
                   <ul>
                     <li><b>Module 1:</b> HPV and related diseases (3hs)</li>
-                    <li><b>Module 2:</b> HPV vaccines: an overview (3hs) </li>
-                    <li><b>Module 3:</b> Prevention of cervical cancer (3hs)</li>
-                    <li><b>Module 4:</b> Prevention of other HPV-related diseases (3hs)</li>
-                    <li><b>Module 5:</b> Single-dose schedule and special populations (1.5hs)</li>
+                    <li><b>Module 2:</b> HPV vaccines: an overview (3hs)</li>
+                    <li>
+                      <b>Module 3:</b> Prevention of cervical cancer (3hs)
+                    </li>
+                    <li>
+                      <b>Module 4:</b> Prevention of other HPV-related diseases
+                      (3hs)
+                    </li>
+                    <li>
+                      <b>Module 5:</b> Single-dose schedule and special
+                      populations (1.5hs)
+                    </li>
                     <li><b>Module 6:</b> HPV vaccine safety (3hs)</li>
-                    <li><b>Module 7:</b> How can a healthcare worker promote and sustain vaccine confidence (3hs)</li>
-                    <li><b>Additional weeks for course completion:</b> Weeks 8 & 9</li>
-                 
-                    </ul>
-                  <p>Once released, the modules remain available within a maximum of week 9 (two additional weeks are available for course completion), so that the student chooses the most convenient time for learning.</p>
-                  <p><b>The training is free and self-paced,</b> so that the training materials remain available once they have been released. Therefore, <b>interested students can join anytime before November 3rd!</b></p>
+                    <li>
+                      <b>Module 7:</b> How can a healthcare worker promote and
+                      sustain vaccine confidence (3hs)
+                    </li>
+                  </ul>
+                  <p>
+                    Once released, the modules remain available until the end of
+                    the course, so that the student chooses the most convenient
+                    time for learning.
+                  </p>
+                  <p>
+                    <b>The training is free and self-paced,</b> so that the
+                    training materials remain available once they have been
+                    released.
+                  </p>
                   <h4 class="verde">CME accreditation:</h4>
                   <p>
-                    Each module has its own exam and CME accreditation. An application submitted to the UEMS EACCME® (European Accreditation Council for Continuing Medical Education) for CME is under review.
+                    Each of the
+                    <b
+                      ><i
+                        >HPV vaccines: From Prevention to Confidence Building</i
+                      ></b
+                    >
+                    modules has its own exam and is accredited by the European
+                    Accreditation Council for Continuing Medical Education
+                    (EACCME®) with 3 European CME credits (1.5 European CME
+                    credits in case of module 5).
                   </p>
 
                   <br />
@@ -332,7 +400,10 @@
               <td colspan="2">
                 <br />
                 <h4 class="gris" style="text-align: center">Registration:</h4>
-                <br />
+                <h5 style="text-align: center" class="verde">
+                  Interested students can join now:
+                </h5>
+
                 <br />
                 <div style="text-align: center">
                   <a
@@ -405,9 +476,25 @@
                 <br />
                 <img
                   class="center1"
-                  src="https://eoncologia.tcpgrup.com/media/6/media_section/3/9/2439/PROTECT-logo-02.jpg"
+                  src="https://eoncologia.tcpgrup.com/media/6/media_section/5/1/2451/PROTECT-logo-04.jpg"
                 />
-
+                <div class="row">
+                  <div class="column">
+                    <p></p>
+                  </div>
+                  <div class="column">
+                    <p>
+                      <i
+                        >Co-funded by the European Union. Views and opinions
+                        expressed are however those of the author(s) only and do
+                        not necessarily reflect those of the European Union or
+                        the European Health and Digital Executive Agency
+                        (HaDEA). Neither the European Union nor the granting
+                        authority can be held responsible for them.</i
+                      >
+                    </p>
+                  </div>
+                </div>
                 <br />
                 <br />
               </td>
